@@ -1,0 +1,73 @@
+.container {
+  border-radius: 20px;
+  padding: 20px 20px 40px;
+  margin: 10rem auto 2rem;
+  width: 50%;
+  background-color: lightblue;
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+}
+
+h1 {
+  color: hsl(340deg 100% 32%);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+hr {
+  border: 2px solid white;
+  margin: 10px 120px;
+}
+
+p {
+  font-size: 40px;
+}
+
+
+.btn {
+  margin: 20px 20px;
+}
+
+
+.btn-subtract {
+  border-radius: 12px;
+  outline-offset: 4px;
+  border: none;
+  background-color: hsl(340deg 100% 32%);
+  padding: 0;
+  cursor:pointer;
+}
+
+.btn-reset {
+  border-radius: 12px;
+  outline-offset: 4px;
+  border: none;
+  background-color: hsl(340deg 100% 32%);
+  padding: 0;
+  cursor:pointer;
+}
+
+.btn-add {
+  border-radius: 12px;
+  outline-offset: 4px;
+  border: none;
+  background-color: hsl(340deg 100% 32%);
+  padding: 0;
+  cursor:pointer;
+}
+
+.btn-front {
+  display: block;
+
+  padding: 12px 40px;
+  border-radius: 12px;
+  font-size: 1.25rem;
+  background: hsl(345deg 100% 47%);
+  color: white;
+  transform: translateY(-6px);
+}
+
+.btn:active .btn-front {
+  transform: translateY(-2px);
+}
+
