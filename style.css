@@ -10,8 +10,8 @@
 
 h1 {
   color: hsl(340deg 100% 32%);
-  font-weight: bold;
-  text-transform: uppercase;
+  font-weight: 600;
+  text-shadow: 2px 1.5px 2px white;
 }
 
 hr {
@@ -58,8 +58,7 @@ p {
 
 .btn-front {
   display: block;
-
-  padding: 12px 40px;
+  padding: 12px 20px;
   border-radius: 12px;
   font-size: 1.25rem;
   background: hsl(345deg 100% 47%);
@@ -71,3 +70,17 @@ p {
   transform: translateY(-2px);
 }
 
+@media screen and (max-width: 980px){
+  .container {
+    width: 80%;
+  }
+
+  .btn {
+    font-size: 0.75rem;
+    margin: 10px 10px;
+  }
+
+  .btn-front {
+    padding: 8px 20px;
+  }
+}
