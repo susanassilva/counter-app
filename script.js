@@ -3,6 +3,7 @@ const add = document.querySelector('.btn-add');
 const subtract = document.querySelector('.btn-subtract');
 const reset = document.querySelector('.btn-reset');
 
+
 add.addEventListener("click", () => {
   count.innerHTML++;
   setColor();
